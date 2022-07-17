@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sing Up</title>
+  <style>
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding:0 20px 20px 20px;
+}
+.title{
+  color: hotpink;
+  font-family: monospace;
+}
+input{
+  width: 100%!important;
+  box-sizing: border-box;
+  padding: 10px ;
+  margin-bottom: 20px;
+}
+button{
+  float: right;
+  padding: 8px 25px;
+  color: #fff;
+  background: hotpink;
+  border: 0;
+  border-radius: 5px;
+}
+input:focus{
+  outline-color: hotpink;
+}
+  </style>
+</head>
+<body>
+<form action="https://google.com/signup.php" method="post">
+  <p class="title">Thakali</p>
+  
+  <p>Create your Thakali online food service account</p>
+  <input name="fname" required type="text" placeholder="First name">
+  <input name="lname" required type="text" placeholder="Last name">
+  <input name=" uname" required type="text" placeholder="Username">
+  <input name="pass" required type="password" placeholder="Password" maxlength="32" minlength="8">
+  <input required type="password" placeholder="Confirm" maxlength="32" minlength="8">
+  <button type="submit">Next</button>
+</form>
+</body>
+</html>
